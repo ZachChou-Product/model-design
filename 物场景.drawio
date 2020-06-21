@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-03T13:22:14.520Z" agent="5.0 (Macintosh)" etag="5y0KXSmsM6qlN2LpUbiX" version="13.1.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-21T03:14:32.982Z" agent="5.0 (Macintosh)" etag="Qs9d9myHnmnuv8DyIg4P" version="13.3.0" type="github" pages="4">
   <diagram id="Vh8yJrfoOHnO6MgG_yZo" name="二维码道闸">
-    <mxGraphModel dx="777" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -526,143 +526,403 @@
     
   </diagram>
   <diagram id="g1MWvIK43MAFQk5woRa1" name="塔吊&amp;升降机">
+    
     <mxGraphModel dx="777" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="DqQk5poDh8tWar0ekkmv-0" />
+        
         <mxCell id="DqQk5poDh8tWar0ekkmv-1" parent="DqQk5poDh8tWar0ekkmv-0" />
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-0" target="Cnyu9HHwtGjZxlooiHAk-5" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="160" y="200" />
+              
               <mxPoint x="160" y="200" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-13" value="2.1开机消息（塔吊设备ID）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-12" vertex="1" connectable="0">
+          
           <mxGeometry x="-0.0187" relative="1" as="geometry">
+            
             <mxPoint x="11.5" y="-20" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-0" value="塔吊" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
           <mxGeometry x="50" y="40" width="100" height="300" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Cnyu9HHwtGjZxlooiHAk-0" vertex="1">
+          
           <mxGeometry x="45" y="100" width="10" height="40" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-11" value="2 开机" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="Cnyu9HHwtGjZxlooiHAk-0" target="Cnyu9HHwtGjZxlooiHAk-10" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="50" y="85" as="sourcePoint" />
+            
             <Array as="points">
+              
               <mxPoint x="75" y="85" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-5" target="Cnyu9HHwtGjZxlooiHAk-6" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="430" y="200" />
+              
               <mxPoint x="430" y="200" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-16" value="&lt;div&gt;2.2 塔吊开机消息&lt;/div&gt;&lt;div&gt;（黑盒子设备ID+塔吊设备ID+塔机设备备案号）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-14" vertex="1" connectable="0">
+          
           <mxGeometry x="-0.0937" y="-1" relative="1" as="geometry">
+            
             <mxPoint x="17.5" y="-31" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-5" value="监测黑盒子" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
           <mxGeometry x="210" y="40" width="100" height="300" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-6" target="Cnyu9HHwtGjZxlooiHAk-7" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="570" y="200" />
+              
               <mxPoint x="570" y="200" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-19" value="2.3 塔吊开机消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-15" vertex="1" connectable="0">
+          
           <mxGeometry x="-0.0312" y="2" relative="1" as="geometry">
+            
             <mxPoint x="2.5" y="-18" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-6" value="网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
           <mxGeometry x="440" y="40" width="100" height="300" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-7" target="Cnyu9HHwtGjZxlooiHAk-17" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="760" y="200" />
+              
               <mxPoint x="760" y="200" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-20" value="&lt;div&gt;2.4 塔吊开机消息&lt;/div&gt;&lt;div&gt;（塔吊设备备案号+项目ID）&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-18" vertex="1" connectable="0">
+          
           <mxGeometry x="0.0063" y="-3" relative="1" as="geometry">
+            
             <mxPoint x="-10.5" y="-23" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-7" target="Cnyu9HHwtGjZxlooiHAk-17" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="760" y="270" />
+              
               <mxPoint x="760" y="270" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-45" value="2.10 返回设备参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-44" vertex="1" connectable="0">
+          
           <mxGeometry x="0.1356" y="-2" relative="1" as="geometry">
+            
             <mxPoint x="-2" y="-12" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-7" value="物联网中台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
           <mxGeometry x="580" y="40" width="100" height="300" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Cnyu9HHwtGjZxlooiHAk-7" vertex="1">
+          
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-39" value="&lt;div&gt;1、注册黑盒子和塔机设备&lt;/div&gt;&lt;div&gt;（录入被监测设备备案号、关联项目&lt;/div&gt;&lt;div&gt;录入塔机设备参数）&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="Cnyu9HHwtGjZxlooiHAk-7" target="Cnyu9HHwtGjZxlooiHAk-38" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="50" y="70" as="sourcePoint" />
+            
             <Array as="points">
+              
               <mxPoint x="75" y="70" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DqQk5poDh8tWar0ekkmv-1" source="Cnyu9HHwtGjZxlooiHAk-17" target="Cnyu9HHwtGjZxlooiHAk-7" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <Array as="points">
+              
               <mxPoint x="750" y="240" />
+              
               <mxPoint x="750" y="240" />
+              
             </Array>
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-43" value="2.9 查询设备参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnyu9HHwtGjZxlooiHAk-42" vertex="1" connectable="0">
+          
           <mxGeometry x="-0.113" y="2" relative="1" as="geometry">
+            
             <mxPoint y="-12" as="offset" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-17" value="监管平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
           <mxGeometry x="800" y="40" width="100" height="360" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Cnyu9HHwtGjZxlooiHAk-17" vertex="1">
+          
           <mxGeometry x="43" y="248" width="10" height="40" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Cnyu9HHwtGjZxlooiHAk-35" value="2.11 记录设备和项目消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" parent="Cnyu9HHwtGjZxlooiHAk-17" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="51" y="255" as="sourcePoint" />
+            
             <Array as="points">
+              
               <mxPoint x="76" y="255" />
+              
               <mxPoint x="76" y="275" />
+              
             </Array>
+            
             <mxPoint x="56" y="275" as="targetPoint" />
+            
+          </mxGeometry>
+          
+        </mxCell>
+        
+        <mxCell id="Cnyu9HHwtGjZxlooiHAk-36" value="1.塔吊和升降机开机上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
+          <mxGeometry x="10" y="10" width="200" height="20" as="geometry" />
+          
+        </mxCell>
+        
+        <mxCell id="Cnyu9HHwtGjZxlooiHAk-37" value="2.塔吊和升降机运行监测数据上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
+          
+          <mxGeometry x="100" y="510" width="200" height="20" as="geometry" />
+          
+        </mxCell>
+        
+      </root>
+      
+    </mxGraphModel>
+    
+  </diagram>
+  <diagram id="ex8Grej81-gIHnnC58Ox" name="二维码 改进">
+    <mxGraphModel dx="782" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="8i5qJH0Uxh3fTYi5DMXZ-0" />
+        <mxCell id="8i5qJH0Uxh3fTYi5DMXZ-1" parent="8i5qJH0Uxh3fTYi5DMXZ-0" />
+        <mxCell id="BK5nL9c0VonVqO2LSpv--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.772;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1" source="BK5nL9c0VonVqO2LSpv--2" target="BK5nL9c0VonVqO2LSpv--20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="341" />
+              <mxPoint x="320" y="341" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cnyu9HHwtGjZxlooiHAk-36" value="1.塔吊和升降机开机上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
-          <mxGeometry x="10" y="10" width="200" height="20" as="geometry" />
+        <mxCell id="BK5nL9c0VonVqO2LSpv--43" value="5.校验结果&amp;amp;出闸记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BK5nL9c0VonVqO2LSpv--41">
+          <mxGeometry x="-0.0031" y="-1" relative="1" as="geometry">
+            <mxPoint y="-10.1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Cnyu9HHwtGjZxlooiHAk-37" value="2.塔吊和升降机运行监测数据上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DqQk5poDh8tWar0ekkmv-1" vertex="1">
-          <mxGeometry x="100" y="510" width="200" height="20" as="geometry" />
+        <mxCell id="BK5nL9c0VonVqO2LSpv--2" value="二维码一体机" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="350" y="40" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BK5nL9c0VonVqO2LSpv--2">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--29" value="4.身份校验&amp;amp;开闸" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="BK5nL9c0VonVqO2LSpv--2" target="BK5nL9c0VonVqO2LSpv--28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BK5nL9c0VonVqO2LSpv--2">
+          <mxGeometry x="50" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--40" value="&amp;nbsp;0 离线二维码逻辑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="BK5nL9c0VonVqO2LSpv--39" parent="BK5nL9c0VonVqO2LSpv--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="50" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1" source="BK5nL9c0VonVqO2LSpv--6" target="BK5nL9c0VonVqO2LSpv--13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="120" />
+              <mxPoint x="620" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--4" value="1.请求二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BK5nL9c0VonVqO2LSpv--3">
+          <mxGeometry x="0.1476" y="-5" relative="1" as="geometry">
+            <mxPoint x="-9.5" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--5" value="3.扫码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1" source="BK5nL9c0VonVqO2LSpv--6">
+          <mxGeometry x="0.0474" y="-10" relative="1" as="geometry">
+            <mxPoint x="401" y="173" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="173" />
+              <mxPoint x="520" y="173" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="530" y="40" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1" source="BK5nL9c0VonVqO2LSpv--13" target="BK5nL9c0VonVqO2LSpv--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="150" />
+              <mxPoint x="650" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--8" value="2. 发送二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BK5nL9c0VonVqO2LSpv--7">
+          <mxGeometry x="-0.0143" y="-1" relative="1" as="geometry">
+            <mxPoint x="3.5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--13" value="i深建" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="660" y="40" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1" source="BK5nL9c0VonVqO2LSpv--20" target="BK5nL9c0VonVqO2LSpv--13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="390" />
+              <mxPoint x="470" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--37" value="8. 校验结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BK5nL9c0VonVqO2LSpv--36">
+          <mxGeometry x="-0.0106" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--20" value="IoT 中台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="190" y="40" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="394" y="195" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--27" value="3.1读码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="194" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="424" y="194" />
+            </Array>
+            <mxPoint x="404" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BK5nL9c0VonVqO2LSpv--30" value="劳务工" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8i5qJH0Uxh3fTYi5DMXZ-1">
+          <mxGeometry x="555" y="62" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

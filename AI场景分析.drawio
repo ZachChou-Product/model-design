@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T01:09:58.524Z" agent="5.0 (Macintosh)" etag="lRdDb4Uq6X-_hPBk9beX" version="13.3.4" type="github"><diagram id="LsalG60jrKpmimVwwgA0" name="Page-1">5Vpbc6M2FP41etwMF4PFo7FxdqbbTmbSmTaPslEwXYGoEL7sr68kxC3gS7Z2cNM8ONLREYjv+3Q4Rzaw58n+kaFs8ysNMQGWEe6BvQCWNYWW+JSGQ2mY2NoQsTgsTWZjeI5/YG00tLWIQ5x3HDmlhMdZ17imaYrXvGNDjNFd1+2Vku5dMxThnuF5jUjf+kcc8k1phda0sX/FcbSp7my6XjmSoMpZP0m+QSHdtUx2AOw5o5SXrWQ/x0RiV+FSzlseGa0XxnDKL5mw9bzHaIqfv/5ipHmRfP99+fL3F0evjR+qB8aheH7dpYxvaERTRILG6jNapCGWVzVEr/H5RmkmjKYw/oU5P2gyUcGpMG14QvSoWDA7/Knnq86L7Dw4VXexbw8uDrpXrlUu8CgElUQQizA/8dx2TYAQLqYJFvcR8xgmiMfb7vWRllBU+9VTn2gs7mwZWu2mo7nWYvec7hVyWrA11pMaqkSjtYrGpAh8B5lak1tECv0EY7B7OUslHOdYuoBN91+y2SHivajbfdQDF8AZ8BcgcIAPwWza40EEg0w28Z53MDe7WO42McfPGVIo7USArfHdYsbx/jTCfUT0hDq6ap06Wqe7JsKZVdjatKIbNG6EoffZlOteqFw4pnLdHuomCKbAn0nFyoYPPFuK2QsAnEgxwznwXBAsgS8aMxBMpLNfNhbKWah9CaCrnEXbvzPlT+5N+ab52aQPL5S+aQwz9THahwOwu0RKMoy3ohnJpgrkS+AZSs5Lpf1a8lDuCRHd9TSxivbM+5K9e3eyt8dQeZ141p1rJ55nd0dFxPntYY25PapldrKanvR1tJ/oaA/dO5e9SNDH1v24BdeIurcu1f1kVN33M9GXQca+oRUmXZQRiaNUtNcCHMyEQWo3XiMy0wNJHIYloTiPf6CVup7EOZMVoXoUxwfO4pT49TmHngzq04U2JyeUd3SrfDEerEl5qZ8tgisX+vqa45sUuGa/kPrQ44pmw7y0x+5o91zlXGPGGDq0HLQ8jx57OLbTCbMmfHMS9cbfmhqn/EWjXMF1tdPP+H77JDt7em5nQ8Nx735vWwMZhycrSA/q1AMG0GlSDV2FLo/mHMk+kkfSD6ssSR+0sc1qRaIi/InmMY+pJHNFOaeJcCBywEfr75GKIXNKKFO3sF/V34AQuIwpfb1kmMUCINlesA1NVkX+1Jj8VX0PMR4hjndS/T4tOIlTPK+Pto3GKHoplf/8/JCsKFE51poUuSD3cXed9Ml5mz7ZRi99cgayJ+dW2VMdL/932dPkwvhvjVpUV8s8UzW4smrwVNUgGr53dAePUzXYk7urGvondS1cHeCZKkhC4AtcfRUiBbSOPMODAfDV8YU3l87HkC4SMltzym4aFlvUDYa2K3BnvglZbp86e4A592YRa6iO7p6sCmLk1wQztSOm8nMG/2vvNIFEnOW4/U478/LKOUpDxML2C0xkQKFaMCJX+p7DurcX2ECSc4zqTLzMP2bT2J7dhQn2YapCexumyvYOmES3+ca7TB2bnw3YwT8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-26T01:16:03.784Z" agent="5.0 (Macintosh)" etag="Q9L9lImdLSqd3WmLbrjT" version="13.3.4" type="github">
+  <diagram id="LsalG60jrKpmimVwwgA0" name="人脸识别">
+    <mxGraphModel dx="782" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="v99Gg7eSHK0nsumkTFYq-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="95" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v99Gg7eSHK0nsumkTFYq-3" target="v99Gg7eSHK0nsumkTFYq-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-3" value="抽帧" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="210" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v99Gg7eSHK0nsumkTFYq-6" target="v99Gg7eSHK0nsumkTFYq-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-6" value="1级结构化：人体识别" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="410" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v99Gg7eSHK0nsumkTFYq-8" target="v99Gg7eSHK0nsumkTFYq-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-8" value="&lt;div&gt;提取人脸&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="610" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v99Gg7eSHK0nsumkTFYq-10" target="v99Gg7eSHK0nsumkTFYq-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-10" value="人脸评分" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="610" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v99Gg7eSHK0nsumkTFYq-12" target="v99Gg7eSHK0nsumkTFYq-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-19" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v99Gg7eSHK0nsumkTFYq-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="v99Gg7eSHK0nsumkTFYq-12" target="v99Gg7eSHK0nsumkTFYq-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="180" />
+              <mxPoint x="270" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v99Gg7eSHK0nsumkTFYq-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.8056" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-12" value="高于85分？" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" parent="1" vertex="1">
+          <mxGeometry x="510" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v99Gg7eSHK0nsumkTFYq-14" target="v99Gg7eSHK0nsumkTFYq-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-14" value="人脸比对" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="340" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-16" value="人员进入现场" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="65" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-20" value="结果应用" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=conditional;" parent="1" vertex="1">
+          <mxGeometry x="220" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v99Gg7eSHK0nsumkTFYq-22" value="" style="shape=plus;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="393" y="280" width="14" height="14" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
